@@ -8,6 +8,11 @@ export default function IndexController(container) {
   this._toastsView = new ToastsView(this._container);
   this._lostConnectionToast = null;
   this._openSocket();
+  this._registerServiceWorker();
+}
+
+IndexController.prototype._registerServiceWorker = function() {
+    // TODO
 }
 
 // open a connection to the server for live updates
