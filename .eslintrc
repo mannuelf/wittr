@@ -5,7 +5,7 @@
    "node": true
  },
 
- "parser": "eslint",
+ "parser": "esprima",
  "extends": "eslint:recommended",
  "rules": {
    "no-console": [0],

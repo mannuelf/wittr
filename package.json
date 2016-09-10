@@ -49,6 +49,7 @@
     "ws": "^0.8.0"
   },
   "dependencies": {
-    "babel-eslint": "^6.1.2"
+    "babel-eslint": "^6.1.2",
+    "esprima": "^3.0.0"
   }
 }
